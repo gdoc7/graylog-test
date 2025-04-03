@@ -1,0 +1,8 @@
+@MY_TOKEN_NAME=my_token_value
+
+# @name scratchpad
+GET http://localhost:8000/test HTTP/1.1
+accept: application/json
+content-type: application/json
+
+

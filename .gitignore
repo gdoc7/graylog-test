@@ -1,0 +1,40 @@
+# Entornos virtuales (todas las variantes posibles)
+**/.env
+**/.venv
+**/env/
+**/venv/
+**/ENV/
+**/env.bak/
+**/venv.bak/
+**/virtualenv/
+**/venv*/
+**/venv*/*
+**/venv*/**/*
+**/venv*/lib/
+**/venv*/lib64/
+**/venv*/include/
+**/venv*/bin/
+**/venv*/Scripts/
+**/venv*/pyvenv.cfg
+**/venv*/pip-selfcheck.json
+
+# Python específico (para todas las subcarpetas)
+**/__pycache__/
+**/*.py[cod]
+**/*$py.class
+**/.pytest_cache/
+**/.mypy_cache/
+
+# Django
+**/db.sqlite3
+**/db.sqlite3-journal
+**/media/
+**/staticfiles/
+**/local_settings.py
+
+# Docker/Contenedores (si aplica)
+**/.dockerignore
+**/data/
+**/logs/
+**/tmp/
+**/.volumes/
