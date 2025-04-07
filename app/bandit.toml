@@ -1,0 +1,3 @@
+[tool.bandit]
+exclude_dirs = ["venv", ".env", "__pycache__"]
+targets = ["graylog_app/", "graylog_test/", "manage.py"]
